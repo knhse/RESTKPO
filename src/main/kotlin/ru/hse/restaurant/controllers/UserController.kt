@@ -8,8 +8,6 @@ import ru.hse.restaurant.models.Dish
 import ru.hse.restaurant.models.User
 import ru.hse.restaurant.repositories.UserRepository
 import java.util.*
-
-
 interface UserController {
     @PostMapping("/signUp")
     fun createUser(

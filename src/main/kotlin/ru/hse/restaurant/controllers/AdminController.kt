@@ -11,7 +11,6 @@ import ru.hse.restaurant.repositories.MenuRepository
 import java.math.BigDecimal
 import java.time.LocalTime
 
-
 interface AdminController {
     @PostMapping("/createDish")
     fun createDish(

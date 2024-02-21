@@ -15,7 +15,6 @@ import ru.hse.restaurant.repositories.OrderingRepository
 import ru.hse.restaurant.services.KitchenServiceImpl
 import java.math.BigDecimal
 import java.time.LocalTime
-
 interface VisitorController {
     @PostMapping("/createOrder")
     suspend fun createOrder(dishId: MutableList<Int>): String

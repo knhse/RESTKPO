@@ -2,6 +2,7 @@ package ru.hse.restaurant.models
 
 import jakarta.persistence.*
 
+
 @Entity
 @Table(name = "feedbacks")
 class Feedback(
