@@ -7,6 +7,7 @@ import jakarta.persistence.*
 @Table(name = "feedbacks")
 class Feedback(
     @Id
+
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private val id: Int,
     private val orderId: Int,
