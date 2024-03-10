@@ -5,6 +5,8 @@ import org.springframework.stereotype.Service
 import ru.hse.restaurant.models.Dish
 
 
+
+
 interface KitchenService {
     suspend fun serveOrder(username: String, dishes: MutableList<Dish>): Boolean
     suspend fun expandOrder(username: String, dishes: MutableList<Dish>)
